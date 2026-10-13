@@ -1,0 +1,13 @@
+{
+  "name": "rei-dos-pixels",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Fliperama 3D com cadastro por e-mail e progresso persistente",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/server.test.cjs",
+    "test:games": "node verify-maze.cjs && node verify-action-games.cjs"
+  },
+  "dependencies": {}
+}
